@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    position: relative;
+    
+
+}
+
+.index
+{
+  color: #00954d6e;  
+  text-align: center;
+  border-style: solid;
+  border-width: 30px;
+  border-radius: 12px;
+  padding: 1px;
+  text-shadow: 2px 2px #000000;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+}
+  a.hov:link 
+  {
+    color: #00b418;
+  }
+  a.hov:hover
+  {
+    color: #b80000;
+  }
+  a.hov:visited
+  {
+color: #0022ac;
+  }
+  .main
+  {
+   left: 10%;
+   
+  }
+  
+  #overflow
+   {
+    background: #7bdaaf;
+    color: #000000;
+    padding: 15px;
+    width: 100%;
+    height: 700px;
+    overflow: scroll;
+    border: 1px solid;
+    
+  }
+  
+  .column {
+    float: left;
+    width: 33%;
+    padding: 15px;
+  }
+  .container
+ {
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+ }
+ .list
+ {
+   margin: 0;
+   padding: 0;
+ }
+ header
+ {
+   background-color: #457986a3;
+   color: #2a2148;
+   min-height: 70px;
+   padding-top: 5px;
+   border-bottom: 5px solid #060138;
+   z-index: 999;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+ }
+ header a
+ {
+  color: #2a2148;
+  text-decoration: none;
+  font-size: 19px;
+  transition-duration: 0.7s;
+  font-weight: 300;
+  font-size: 1 em;
+  
+ }
+ header a :hover
+ {
+   background-color: #00425c;
+   
+ }
+ header .LI
+ {
+   
+   display: inline-block;
+   padding: 0 20px 0 20px;
+   font-size: 30px;
+ }
+ 
+ .List{
+  background-color: black;
+}
+.List li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.List li a{
+  text-decoration: none;
+}
+.List li a:hover{
+  color: white;
+}
+
+ #logo
+ {
+float: left;
+color: #2a2148;
+text-shadow: 2px 2px #000000;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  margin: 0;
+ }
+nav 
+{
+  margin-top: 50px;
+  text-align: center;
+  flex: 1;
+  float: right;
+  right: 10%;
+  font-size: 110px;
+
+}
+.active
+{
+  color: #8371d0;
+  font-size: 30px;
+  font-weight: bold;
+}
+a.link:hover
+{
+color: #ffffff;
+font-size: 30px;
+font-weight: bold;
+}
+a.link:visited
+{
+  color: #8371d0;
+  font-weight: bold;
+  font-size: 30px;
+}
+header .form
+  {
+width: 40px;
+height: 30px;
+position: relative;
+margin-left: 30px;
+border-left: 1px solid black;
+float: right;
+bottom: 70px;
+right: 80px;
+  }
+  header .form i
+  {
+    color: #000000;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+   
+  }
+  footer{
+    background-color: #457986a3;
+    color: #2a2148;
+    margin-top: 65%;
+}
+footer .con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+footer .con  a{
+    color: #2a214888;
+    text-decoration: none;
+}
+footer .con .copyright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer .con .copyright span{
+    color: white;
+}
+footer .con  a:hover{
+    color: white
+}
+footer .list1 ul {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+footer.icons{
+    margin-top: 10px;
+}
+footer .list1 ul li{
+    margin-right: 2px;
+    display: inline-block;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
