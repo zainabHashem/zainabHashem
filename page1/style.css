@@ -1,0 +1,260 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  position: relative;  
+  padding: 0.5%;
+color: #b0402c;
+}
+.container
+{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.list
+{
+  margin: 0;
+  padding: 0;
+}
+header
+{
+  background-color: #000000;
+  color: #c05c1a;
+  min-height: 70px;
+  padding-top: 5px;
+  border-bottom: 5px solid #fa733d;
+  z-index: 999;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+header a
+{
+ color: #ca8326;
+ text-decoration: none;
+ font-size: 19px;
+ transition-duration: 0.7s;
+ font-weight: 300;
+ font-size: 1 em;
+}
+.List{
+  background-color: #000000;
+}
+.List li{
+  display: inline-block;
+}
+.List li a{
+  text-decoration: none;
+}
+.List li a:hover{
+  color: white;
+}
+header .LI
+{
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  font-size: 30px;
+}
+#logo
+{
+float: left;
+color: #2a2148;
+text-shadow: 2px 2px #412c26ce;
+ font-family: 'Brush Script MT', cursive;
+ font-size: 40px;
+ margin: 0;
+}
+nav 
+{
+ margin-top: 50px;
+ text-align: center;
+ flex: 1;
+ float: right;
+ right: 10%;
+ font-size: 110px;
+
+}
+a.link:hover,.active
+{
+color: #ffffff;
+font-size: 30px;
+font-weight: bold;
+}
+a.link:visited
+{
+ color: #6a6363;
+ font-weight: bold;
+ font-size: 30px;
+}
+header .form
+ {
+width: 40px;
+height: 30px;
+position: relative;
+margin-left: 30px;
+border-left: 1px solid white;
+float: right;
+bottom: 70px;
+right: 80px;
+ }
+ header .form i
+ {
+   color: #ffffff;
+   position: absolute;
+   font-size: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 0%;
+ }
+ .container{
+   max-width: 1170px;
+   margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+ul{
+   list-style: none;
+}
+.header1 {
+  display: flex;
+  justify-content: center;
+    color: #e6fcf0;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #159c37;
+    border-radius: 30px 60px;
+    margin-bottom: 2%;
+    font-size: xxx-large;
+}
+p{
+  font-weight: bold;
+  color: #053611;
+}
+
+#header2{
+    display: flex;
+    justify-content: center;
+    color: #088a28;
+    font-size: xx-large;
+}
+h4{
+    margin: 0;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.r1{
+    display: flex;
+    justify-content: space-between;
+}
+.c2{
+  background-color: #b6e9c7;
+}
+.c1{
+  background-color: #daf8e5;
+}
+.img-hover-zoom{
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+.img-hover-zoom img {
+    transition:all .5s ease;
+    width: 400px;
+    height: 300px;
+    float: right;
+    border-radius: 5px;
+}
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+
+}
+label{
+  font-size: x-large;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+  margin-top: 2%;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18Px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background-color: rgb(255,255,255,0.2);
+   margin: 0 10 10 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color: #ffffff;
+   transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+body{
+  background-color: white;
+}
+.dark-mode{
+  background-color: black;
+}

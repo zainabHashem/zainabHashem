@@ -1,0 +1,109 @@
+body{
+    background-image: url(WhatsApp\ Image\ 2022-04-29\ at\ 12.14.29\ AM.jpeg);
+    background-size: cover;
+}
+.contactus-box{
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    margin-right: 200px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+h1
+{
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 50px;
+
+}
+.team2 h2{
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    margin-left: 360px ;
+    
+
+   color: white;
+}
+form{
+    width: 300px;
+    margin: auto;
+    margin-left: 20px;
+    
+
+}
+form label{
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+}
+form input{
+    
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 120px;
+    height:35px;
+    margin-top: 10px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+nav{
+    width: 80%;
+    min-width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     margin: auto;
+    }
+nav a{
+position: relative;
+text-decoration: none;
+font-size: 30px;
+font-family: sans-serif;
+text-transform: capitalize;
+color: white;
+transition: 0.3s;
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+-ms-transtion: 0.3s;
+-o-transition: 0.3s;
+padding: 0 10px;
+margin-bottom: 50px;
+}
+
+a::before{
+content: '';
+position: absolute;
+left: 0;
+height: 3px;
+width: 0;
+background-color: #367cff;
+bottom: -7px;
+transition: 0.3s;
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+-ms-transtion: 0.3s;
+-o-transition: 0.3s;
+}
+a:hover{
+    color: rgb(193, 88, 39);
+}
+a:hover::before{
+    width: 100%;
+}
+section
+{
+    display: flex;
+}
